@@ -143,6 +143,7 @@ public class CameraActivity extends AppCompatActivity {
             byte[] imageBytes = baos.toByteArray();
             imageString = Base64.encodeToString(imageBytes, Base64.DEFAULT);
 
+            //TODO: add code store in somewhere
         }
     }
 
